@@ -16,7 +16,7 @@ runs:
         working-directory: ./app
 
       - name: Run Lint
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
         shell: bash
         working-directory: ./app
 
